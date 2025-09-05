@@ -1098,16 +1098,21 @@ img {
   margin-right: 0;
 }
 .header-style-one .header-wrapper .header-navigation-area .main-menu ul li a {
+ 
   padding: 36px 0;
   display: block;
   color: #2f2b2b;
   font-weight: 600;
 }
 .header-style-one .header-wrapper .header-navigation-area .main-menu ul li.has-sub.right-view ul {
+  
+  
   right: -20px;
   left: auto;
 }
 .header-style-one .header-wrapper .header-navigation-area .main-menu ul li.has-sub > a::before {
+   
+  
   content: "\f107";
   position: absolute;
   right: -16px;
@@ -1120,6 +1125,7 @@ img {
   font-family: FontAwesome;
   font-size: 16px;
 }
+
 .header-style-one .header-wrapper .header-navigation-area .main-menu ul li:hover > a {
   color: #E41F7A;
 }
@@ -1182,15 +1188,7 @@ img {
   opacity: 0;
   visibility: hidden;
 }
-.header-style-one .header-wrapper .header-navigation-area .main-menu ul li ul.sub-menu li.has-sub-child > a::before {
-  content: "\f105";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-15px);
-  font-family: FontAwesome;
-  font-size: 16px;
-}
+
 .header-style-one .header-wrapper .header-navigation-area.inner-page .main-menu ul li a {
   padding: 35px 0;
 }
@@ -1336,6 +1334,7 @@ img {
   margin: 0;
   text-align: left;
   border-bottom: 1px solid #ddd;
+  
 }
 .header-style-two .header-wrapper .header-navigation-area .main-menu ul li ul.sub-menu li:last-child {
   border-bottom: none;
@@ -1372,6 +1371,7 @@ img {
   padding: 35px 0;
 }
 .header-style-two .header-wrapper .header-navigation-area.transparent-header {
+ 
   background: transparent;
   position: fixed;
   z-index: 9999;
